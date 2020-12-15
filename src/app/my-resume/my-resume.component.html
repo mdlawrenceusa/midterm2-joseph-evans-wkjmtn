@@ -1,0 +1,27 @@
+<div class="w3-light-grey">
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+  
+      <!-- profile Column -->
+      <div class="w3-third">
+        <app-resume-profile [profile] = profile></app-resume-profile>
+      <!-- End profile Column -->
+      </div>
+
+      <!-- experience Column -->
+      <div class="w3-twothird">
+          <app-resume-work-experience></app-resume-work-experience>
+        <app-resume-education></app-resume-education>
+      <!-- End experienceColumn -->
+      </div>
+    
+    <!-- End Grid -->
+    </div>
+  
+  <!-- footer Container -->
+  </div>
+      <app-resume-footer></app-resume-footer>
+</div>
